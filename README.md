@@ -9,19 +9,18 @@
 
 * Insights were presented in Tableau's Storyboard where you can see below and via [Tableau Public](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1). 
 
-
 ## Questions
 * What were the average rental duration, rate, and replacement cost for all videos?
 * Which countries and cities are Rockbuster customers based in?
 * Where are customers with a high lifetime value-based?
 * Do sales figures vary between geographic regions?
 
-
 ## Visualizations
 * Average film rental duration, rate, and replacement cost.
 * Top 10 countries for Rockbuster in terms of customers numbers
 * Top 10 cities within the top 10 countries in terms of customers numbers
 * Top 5 customers in the top 10 cities who have paid the highest total amount to Rockbuster
+* Tableau Storyboard [link]([Tableau Public](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1).
 
 ## Recommendations
 * Focus on building a better brand image in India, China, and United States, respectively. 
