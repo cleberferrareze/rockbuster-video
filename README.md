@@ -20,7 +20,7 @@
 * Top 10 countries for Rockbuster in terms of customers numbers
 * Top 10 cities within the top 10 countries in terms of customers numbers
 * Top 5 customers in the top 10 cities who have paid the highest total amount to Rockbuster
-* Tableau Storyboard [link]([Tableau Public](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1).
+* Tableau Storyboard [Tableau Public link](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1).
 
 ## Recommendations
 * Focus on building a better brand image in India, China, and United States, respectively. 
