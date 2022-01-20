@@ -7,7 +7,9 @@
 
 * The dataset was uploaded into a relational database management system (RDBMS), the PostgreSQL, where [queries](https://docs.google.com/spreadsheets/d/1FeaNMiSDVlpeQEaWNcWQxScNksJbRdbq/edit?usp=sharing&ouid=113829169484980023518&rtpof=true&sd=true) were developed to analyze the data and answer the key business questions raised by the team. 
 
-* Insights were presented in Tableau's Storyboard where you can see below and via [Tableau Public](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1). 
+* Insights were presented in Tableau's Storyboard where you can see below and via [Tableau Public](https://public.tableau.com/app/profile/cleber.juliano.f/viz/Rockbuster_16257667057540/Story1).
+
+* The project page can also be accessed via [meu website](https://www.cleberferrareze.com/projects/rockbuster-video).
 
 ## Questions
 * What were the average rental duration, rate, and replacement cost for all videos?
