@@ -1,0 +1,28 @@
+# Finding how many of the top 5 customers are based within each country
+
+WITH cte_top_customer AS
+	(SELECT payment.customer_id, customer.first_name, customer.last_name, city.city, country.country, SUM(payment.amount) AS average_amount_paid 
+	FROM payment
+  
+	INNER JOIN customer ON payment.customer_id = customer.customer_id
+	INNER JOIN address ON customer.address_id = address.address_id
+	INNER JOIN city ON address.city_id = city.city_id
+	INNER JOIN country ON city.country_id = country.country_id
+	
+  WHERE city IN ('Aurora', 'Tokat', 'Tarsus', 'Atlixco', 'Emeishan', 'Pontianak', 'Shimoga', 'Aparecida de Goinia', 'Zalantun', 'Taguig')
+	GROUP BY payment.customer_id, customer.first_name, customer.last_name, city.city, country.country
+	ORDER BY average_amount_paid DESC
+	LIMIT 5)
+
+SELECT (country.country),
+	COUNT (DISTINCT customer.customer_id) AS all_customer_count,
+	COUNT (DISTINCT country.country) AS top_customer_count
+FROM cte_top_customer
+
+LEFT JOIN customer ON customer.customer_id = customer.customer_id 
+LEFT JOIN address ON customer.address_id = address.address_id
+LEFT JOIN city ON address.city_id = city.city_id
+LEFT JOIN country ON city.country_id = country.country_id
+GROUP BY country.country_id
+ORDER BY COUNT (country.country_id) DESC
+LIMIT 5;
